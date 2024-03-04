@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: rgba(3, 98, 3, 0.436);
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    font-size: 20px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+header i{
+    display:none
+}
+.logo{
+    display: flex;
+    align-items: flex-start;
+}
+.logo img{
+    height: 40px;
+    margin-right: 5px;
+}
+.navegador ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: wheat;
+}
+a:hover{
+    color:rgba(0, 128, 0, 0.404);
+}
+/* header para todos  */
+main{
+    height: 450px;
+    width: 100%;
+    background-image: url(../img/lizard-4763351_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    color: green;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .serp{
+    background-image: url(../img/line-1191750_1280.jpg);
+}
+.info{
+    width: 70%;
+    background-color: rgb(0,0,0,0,0,7);
+    padding: 20px;
+    border: 6px solid green
+}
+.info p{
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+.separacion{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.404);
+}
+/* main para todos*/
+.container{
+    background:gray;
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container h2{
+    text-align: center;
+    padding-bottom: 55px;
+    color:white;
+     text-shadow:rgba(0,0,0,.2); 
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); 
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    /* background:white; */
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container .box-container .box img{
+    height: 90px;
+}
+.container .box-container .box h3{
+    color:white; 
+   font-size: 22px;
+   padding:10px 0;
+}
+
+.container .box-container .box p{ 
+   color: wheat;
+   font-size: 15px;
+   line-height: 1.8;
+}
+
+.container .box-container .box .click{
+   margin-top: 10px;
+   display: inline-block;
+   background:#333;
+   color:rgba(0, 128, 0, 0.404);
+   font-size: 20px;
+   border-radius: 5px;
+   padding: 8px 25px;
+}
+
+.container .box-container .box .click:hover{
+   letter-spacing: 1px;
+}
+
+.foot-bar{
+    background-color:black;
+    height: 80px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+.foot-bar i{
+    margin: 23px;
+    font-size: 30px;
+    color:rgba(0, 128, 0, 0.404);
+    margin-top: 10px;
+}
+
+/* estilos para todas las paginas */
+.galeria{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,1fr);
+    grid-gap:10px;
+    background-color: black;
+}
+.item{
+    height: 100px;
+    width: 100%;
+    border: 3px solid rgba(0, 128, 0, 0.404);
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+#snake1{
+    background-image: url(../img/Boa-constrictor.jpeg);
+}
+#snake2{
+    background-image: url(../img/crotalo-azul-3.jpg);
+}
+#snake3{
+    background-image: url(../img/line-4701589_1280.jpg);
+}
+#snake4{
+    background-image: url(../img/istockphoto-1234579643-612x612.jpg);
+}
+#snake5{
+    background-image: url(../img/line-1743440_1280.jpg);
+}
+#snake6{
+    background-image: url(../img/nature-3123972_1280.jpg);
+}
+#snake7{
+    background-image: url(../img/nota-vanesa.jpg);       
+}
+#snake8{
+    background-image: url(../img/pine-snake-3415165_1280.jpg);
+}
+#snake9{
+    background-image: url(../img/python-1424583_1280.jpg);
+}
+#snake10{
+    background-image: url(../img/rattle-snake-271945_1280.jpg);
+}
+#snake11{
+    background-image: url(../img/red-bellied-black-snake-6749361_1280.jpg);
+}
+#snake12{
+    background-image: url(../img/snake-326051_1280.jpg);
+}
+    
+
+#coco1{
+    background-image: url(../img/american-alligator-204839_1280.jpg);
+}
+#coco2{
+    background-image: url(../img/animal-194914_1280.jpg);
+}
+#coco3{
+    background-image: url(../img/biscayne-national-park-80457_1280.jpg);
+}
+#coco4{
+    background-image: url(../img/crocodile-348319_1280.jpg);
+}
+#coco5{
+    background-image: url(../img/crocodile-534020_1280.jpg);
+}
+#coco6{
+    background-image: url(../img/crocodile-4875732_1280.jpg);
+}
+#coco7{
+    background-image: url(../img/crocodile-5664573_1280.jpg);
+}
+#coco8{
+    background-image: url(../img/crocodile-6937212_1280.jpg);
+}
+#coco9{
+    background-image: url(../img/crocodile-7099878_1280.jpg);
+}
+#coco10{
+    background-image: url(../img/crocodile-7298825_1280.jpg);
+}
+#coco11{
+    background-image: url(../img/crocodile-7355574_1280.jpg);
+}
+#coco12{
+    background-image: url(../img/crocodile-7722778_1280.jpg);
+}
+
+#lag1{
+    background-image: url(../img/animals-3306055_1280.jpg);
+}
+#lag2{
+    background-image: url(../img/chameleon-6307349_1280.jpg);
+}
+#lag3{
+    background-image: url(../img/comodo-dragon-250668_1280.jpg);
+}
+#lag4{
+    background-image: url(../img/eye-854340_1280.jpg);
+}
+#lag5{
+    background-image: url(../img/gecko-7411579_1280.jpg);
+}
+#lag6{
+    background-image: url(../img/iguana-2305779_1280.jpg);
+}
+#lag7{
+    background-image: url(../img/iguana-8283668_1280.jpg);
+}
+#lag8{
+    background-image: url(../img/lizard-4763351_1280.jpg);
+}
+#lag9{
+    background-image: url(../img/panther-chameleon-3377556_1280.jpg);
+}
+#lag10{
+    background-image: url(../img/reptile-3742345_1280.jpg);
+}
+#lag11{
+    background-image: url(../img/iguana-6564704_1280.jpg);
+}
+#lag12{
+    background-image: url(../img/bearded-dragon-2787907_1280.jpg);
+}
+
+#turtle1{
+    background-image: url(../img/animal-1039970_1280.jpg);
+}
+#turtle2{
+    background-image: url(../img/turtle-3069468_1280.jpg);
+}
+#turtle3{
+    background-image: url(../img/turtle-4222815_1280.jpg);
+}
+#turtle4{
+    background-image: url(../img/turtle-4277518_1280.jpg);
+}
+#turtle5{
+    background-image: url(../img/turtle-4436760_1280.jpg);
+}
+#turtle6{
+    background-image: url(../img/turtle-4699452_1280.jpg);
+}
+#turtle7{
+    background-image: url(../img/tortoise-640109_1280.jpg);
+}
+#turtle8{
+    background-image: url(../img/turtle-3069468_1280.jpg);
+}
+#turtle9{
+    background-image: url(../img/turtle-4222815_1280.jpg);
+}
+#turtle10{
+    background-image: url(../img/turtle-4277518_1280.jpg);
+}
+#turtle11{
+    background-image: url(../img/turtle-7056667_1280.jpg);
+}
+#turtle12{
+    background-image: url(../img/turtle-7908621_1280.jpg);
+}
+
+
+/* resoluciones */
+@media only screen and (max-width:720px) {
+    header{
+         flex-direction: column; 
+    }
+}
+@media only screen and (max-width:480px){
+    header{
+        nav{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width:480px) {
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6,200px);
+    }
+    .item{
+        height: 160px;
+    }
+}
+@media only screen and (min-width:720px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+       
+    }
+    .item{
+        height:200px;
+    }
+}
+@media only screen and (min-width:980px) {
+    .galeria{
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(3,200px);
+    }
+    
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
